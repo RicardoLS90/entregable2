@@ -1,0 +1,124 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.Main {
+  border: 3px solid white;
+  border-radius: 20px;
+  box-shadow: -14px 18px 9px -1px rgba(0,0,0,0.75);
+  background-color: grey;
+}
+
+.main>img {
+  width: 150px;
+  height: 150px;
+}
+
+.description {
+  font-size: 30px;
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+@media screen and ( min-width: 400px) {
+  #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: white;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+
+  button:hover {
+    background-color: red;
+    color: white;
+  }
+  
+  .App {
+    border: 3px solid white;
+    border-radius: 20px;
+    box-shadow: -14px 18px 9px -1px rgba(0,0,0,0.75);
+    background-color: cornflowerblue;
+    width: 600px;
+  }
+  
+  
+
+  .main>img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .description {
+    font-size: 30px;
+  }
+  
+  .second {
+    display: flex;
+    justify-content: center;
+  }
+  
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+  }
+  
+  .weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+    
+
+}
